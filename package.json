@@ -1,0 +1,25 @@
+{
+  "name": "word-trainer",
+  "version": "1.0.0",
+  "description": "A German→English vocabulary trainer that reads its words from your own Excel workbook.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "german",
+    "vocabulary",
+    "flashcards",
+    "language-learning",
+    "spaced-repetition",
+    "excel"
+  ],
+  "author": "Domonkos Haffner",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}
